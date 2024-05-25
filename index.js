@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const jwt = require('jsonwebtoken');
 const chefsData = require('./data/chef_data.json');
 const recipesData = require('./data/recipes_data.json');
 const qAndA = require('./data/q&a_data.json');

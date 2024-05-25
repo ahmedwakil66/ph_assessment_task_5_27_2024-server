@@ -1,5 +1,5 @@
 const express = require('express');
-const { verifyJWT, recipeDataSendOnlyToValidViewer } = require('../../middlewares');
+const { verifyJWT, recipeDataSendOnlyToValidViewer, upload } = require('../../middlewares');
 const { client, connect } = require('../../db');
 const { ObjectId } = require('mongodb');
 const router = express.Router();
@@ -20,6 +20,77 @@ router.get('/:recipeId', recipeDataSendOnlyToValidViewer, async (req, res, next)
         return res.send(recipe);
 
     } catch (error) {
+        next(error);
+    }
+})
+
+// Add new recipe route handler
+router.post('/add', upload.single('file'), async (req, res, next) => {
+    const userId = req.decoded._id;
+    const userEmail = req.decoded.email;
+
+    const { name, description, youtube_embed, country, ingredients, cooking_method, category } = req.body;
+    const file = req.file;
+    // console.log({ body: req.body, file });
+
+    // ImageBB API key
+    const apiKey = process.env.IMGBB_API_KEY;
+
+    // Convert file buffer to base64
+    const base64Image = file.buffer.toString('base64');
+
+    // Prepare form data
+    const formData = new URLSearchParams();
+    formData.append('key', apiKey);
+    formData.append('image', base64Image);
+
+
+    try {
+        // upload image to imgBB
+        const imgBBResponse = await fetch('https://api.imgbb.com/1/upload', {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+        });
+        const imgData = await imgBBResponse.json();
+
+        // check successful image upload
+        if (!imgData.success) throw new Error(`Image upload error: ${imgData?.error?.message}`);
+
+        // build new recipe document
+        const newRecipe = {
+            creator_id: userId,
+            creator_email: userEmail,
+            purchased_by: [],
+            watch_count: 0,
+            price: 10,
+            rating: 4,
+            tags: [],
+            image: imgData.data.display_url,
+            name,
+            description,
+            youtube_embed,
+            country,
+            ingredients: JSON.parse(ingredients),
+            cooking_method,
+            category,
+        }
+
+        // add to mongodb recipe collection
+        const { recipeCollection } = await connect();
+        const writeResult = await recipeCollection.insertOne(newRecipe);
+
+        // finally send a response
+        if (writeResult.insertedId) {
+            return res.send({ success: true, insertedId: writeResult.insertedId })
+        }
+
+        throw new Error('Failed to write to database. Please try again later.')
+
+    } catch (error) {
+        console.log('Add recipe error: ', error.message);
         next(error);
     }
 })

@@ -1,6 +1,11 @@
 const jwt = require('jsonwebtoken');
 const { connect } = require('./db');
 const { ObjectId } = require('mongodb');
+const multer = require('multer');
+
+// Configure multer for memory storage
+const storage = multer.memoryStorage();
+const upload = multer({ storage: storage });
 
 //verify jwt token
 const verifyJWT = (req, res, next) => {
@@ -48,6 +53,7 @@ const recipeDataSendOnlyToValidViewer = async (req, res, next) => {
 }
 
 module.exports = {
+    upload,
     verifyJWT,
-    recipeDataSendOnlyToValidViewer
+    recipeDataSendOnlyToValidViewer,
 }
