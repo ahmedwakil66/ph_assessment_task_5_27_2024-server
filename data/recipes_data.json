@@ -1,9 +1,11 @@
 [
     {
         "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
-        "creator_email": "ahmedwakil66@gmail.com",
+        "creator_email": "theprocourse@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ay-01-fwe",
         "name": "Beef Rezala",
         "image": "recipes_img/Beef_Rezala.png",
@@ -32,10 +34,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ay-01-fwe",
         "name": "Beef Bhuna",
         "image": "recipes_img/Beef_Bhuna.png",
@@ -63,10 +67,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ay-01-fwe",
         "name": "Beef Kala Bhuna",
         "image": "recipes_img/Beef_Kala_Bhuna.png",
@@ -94,10 +100,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Rui Macher Jhol",
         "image": "recipes_img/Rui_Macher_Jhol.png",
@@ -127,10 +135,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Shorshe Ilish",
         "image": "recipes_img/Shorshe_Ilish.png",
@@ -155,10 +165,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Chitol Macher Muithya",
         "image": "recipes_img/Chitol_Macher_Muithya.png",
@@ -187,10 +199,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "mr-03-fqw",
         "name": "Kacchi Biriyani",
         "image": "recipes_img/Kacchi_Biriyani.png",
@@ -222,10 +236,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "mr-03-fqw",
         "name": "Mutton Rezala",
         "image": "recipes_img/Mutton_Rezala.png",
@@ -259,10 +275,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "mr-03-fqw",
         "name": "Mutton Bhuna",
         "image": "recipes_img/Mutton_Bhuna.png",
@@ -292,10 +310,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ss-04-fww",
         "name": "Spicy Chicken Curry",
         "image": "recipes_img/Spicy_Chicken_Curry.png",
@@ -325,10 +345,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ss-04-fww",
         "name": "Chicken Korma",
         "image": "recipes_img/Chicken_Korma.png",
@@ -358,10 +380,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ss-04-fww",
         "name": "Chicken Rezala",
         "image": "recipes_img/Chicken_Rezala.png",
@@ -398,10 +422,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ai-05-fpw",
         "name": "Samosa",
         "image": "recipes_img/Samosa.png",
@@ -428,10 +454,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ai-05-fpw",
         "name": "Chotpoti",
         "image": "recipes_img/Chotpoti.png",
@@ -453,10 +481,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ai-05-fpw",
         "name": "Shingara",
         "image": "recipes_img/Shingara.png",
@@ -479,10 +509,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "th-06-fwo",
         "name": "Morog Pulao",
         "image": "recipes_img/Morog_Pulao.png",
@@ -504,10 +536,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "th-06-fwo",
         "name": "Khichuri",
         "image": "recipes_img/Khichuri.png",
@@ -529,10 +563,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "th-06-fwo",
         "name": "Bengali-style Vegetable Khichuri",
         "image": "recipes_img/Bengali_style_Vegetable_Khichuri.png",
@@ -555,10 +591,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Luchi",
         "image": "recipes_img/Luchi.png",
@@ -579,10 +617,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "ai-05-fpw",
         "name": "Mutton Biryani",
         "image": "recipes_img/Mutton_Biryani.png",
@@ -605,10 +645,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Tormuj Juice",
         "image": "recipes_img/Tormuj_Juice.png",
@@ -630,10 +672,12 @@
         ]
     },
     {
-        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_id": "dpeSi1DkoGhERWSnTh94B6LPsBn2",
         "creator_email": "ahmedwakil66@gmail.com",
         "country": ["Bangladesh:BD"],
         "purchased_by": [],
+        "price": 10,
+        "watch_count": 0,
         "chef_id": "jm-02-qwf",
         "name": "Mango Lassi",
         "image": "recipes_img/Mango_Lassi.png",

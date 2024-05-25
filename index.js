@@ -7,11 +7,12 @@ const recipesData = require('./data/recipes_data.json');
 const qAndA = require('./data/q&a_data.json');
 const port = process.env.PORT || 3000;
 const { verifyJWT } = require('./middlewares');
+const { connect } = require('./db');
 
 // import routes
 const jwtRoute = require('./routes/jwt');
 const recipeRoute = require('./routes/protected/recipes');
-const connect = require('./db');
+const purchaseRoute = require('./routes/protected/purchase');
 
 const app = express();
 
@@ -21,6 +22,7 @@ app.use(express.json());
 // Use route files as middleware
 app.use('/jwt', jwtRoute);
 app.use('/recipes', recipeRoute);
+app.use('/purchase', purchaseRoute);
 
 
 app.get('/', (req, res) => {
@@ -75,6 +77,14 @@ app.get('/get-recipes/categories/:category', async (req, res) => {
     return res.send(recipes)
 })
 
+// app.get('/one-time', async (req, res) => {
+//     const { recipeCollection } = await connect();
+//     const result = await recipeCollection.updateMany(
+//         {},
+//         { $set: { country: 'Bangladesh' } }
+//     )
+//     return res.send({ result })
+// })
 
 
 
@@ -138,6 +148,12 @@ app.get('/simply-recipes/todays-pick', (req, res) => {
 //send all q&a data
 app.get('/simply-recipes/q-and-a', (req, res) => {
     res.send(qAndA);
+})
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+    console.error(err.message, err.stack);
+    return res.status(err.statusCode || 500).json({ message: err.message });
 })
 
 

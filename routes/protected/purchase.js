@@ -1,7 +1,6 @@
 const express = require('express');
-const { verifyJWT, recipeDataSendOnlyToValidViewer } = require('../../middlewares');
-const { client, connect } = require('../../db');
-const { ObjectId } = require('mongodb');
+const { verifyJWT } = require('../../middlewares');
+const { connect, client } = require('../../db');
 const router = express.Router();
 
 // JWT verification middleware
@@ -9,23 +8,45 @@ router.use((req, res, next) => {
     verifyJWT(req, res, next)
 })
 
-// Send recipe data route handler With API protection middleware
-// That allows sending data only to the creator/purchaser of the recipes
-router.get('/:recipeId', recipeDataSendOnlyToValidViewer, async (req, res, next) => {
+// Purchase coin
+router.post('/coin', async (req, res, next) => {
     try {
-        const recipeId = req.params.recipeId;
-        const { recipeCollection } = await connect();
-        const recipe = await recipeCollection.findOne({ _id: new ObjectId(recipeId) });
-        if (!recipe) throw new Error('Recipe does not exist.');
-        return res.send(recipe);
+        const userId = req.decoded._id;
+        const package = req.body.package; console.log('body', req.body, req.body.package);
+        // package 'base' => 100 coin for $1
+        // package 'standard' => 500 coin for $5
+        // package 'premium' => 1000 coin for $10
+        const coins = package === 'base' ? 100 : package === 'standard' ? 500 : 1000;
+        const price = package === 'base' ? 1 : package === 'standard' ? 5 : 10;
+
+        if (!package) throw new Error('A package must be mentioned. Available are- base, standard or premium.')
+
+        const { userCollection } = await connect();
+        const result = await userCollection.updateOne(
+            { _id: userId },
+            { $inc: { coin: coins } }
+        )
+
+        if (result.modifiedCount > 0) {
+            return res.send({ 
+                success: true, 
+                message: `${coins} Coins added successfully! You have been charged $${price}.`, 
+                amountInserted: coins, 
+                priceDeducted: price,
+            });
+        }
+        throw new Error('Could not purchase, please try again later.');
 
     } catch (error) {
+        console.log('Purchase coin error: ', error.message);
         next(error);
     }
+
+
 })
 
-// Purchase route handler
-router.post('/purchase', async (req, res, next) => {
+// Purchase recipe
+router.post('/recipe', async (req, res, next) => {
     const userId = req.decoded._id;
     const userEmail = req.decoded.email;
     const recipeId = req.body.recipeId;
@@ -98,5 +119,6 @@ router.post('/purchase', async (req, res, next) => {
 
     return res.send({ message: 'success', success: true });
 })
+
 
 module.exports = router;

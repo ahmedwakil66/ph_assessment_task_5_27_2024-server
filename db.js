@@ -29,7 +29,7 @@ async function connect() {
             await client.db("admin").command({ ping: 1 });
             console.log("Pinged your deployment. You successfully connected to MongoDB!");
         }
-        
+
         return ({ userCollection, recipeCollection });
     }
 
@@ -46,4 +46,7 @@ async function connect() {
 
 
 // Export the connect function
-module.exports = connect;
+module.exports = {
+    client,
+    connect
+};

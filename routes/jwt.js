@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
-const connect = require('../db');
+const { connect } = require('../db');
 const { ObjectId } = require('mongodb');
 
 // save user info in database if first timer
@@ -16,9 +16,9 @@ router.post('/', async (req, res) => {
     }
 
     let userInfo = {};
+    const { userCollection } = await connect();
 
     try {
-        const { userCollection } = await connect();
         const result = await userCollection.findOne({ email: user.email });
 
         if (!result) {
@@ -46,7 +46,7 @@ router.post('/', async (req, res) => {
         const result = await userCollection.findOne({ email: user.email });
         userInfo = {
             ...result,
-            _id: result._id.toString()
+            _id: result?._id.toString()
         }
     }
 
