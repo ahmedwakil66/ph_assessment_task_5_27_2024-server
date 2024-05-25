@@ -1,0 +1,658 @@
+[
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ay-01-fwe",
+        "name": "Beef Rezala",
+        "image": "recipes_img/Beef_Rezala.png",
+        "ingredients": [
+            "1 kg beef",
+            "2 onions",
+            "1 tbsp ginger paste",
+            "1 tbsp garlic paste",
+            "1 cup yogurt",
+            "1 tbsp ghee",
+            "2 bay leaves",
+            "1 cinnamon stick",
+            "4 cardamom pods",
+            "2 cloves",
+            "1 tsp sugar",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. In a pan, heat ghee and add the bay leaves, cinnamon, cardamom, and cloves.\n2. Add onions, ginger paste, and garlic paste and sauté until onions are translucent.\n3. Add beef, salt, and sugar, and cook until the beef is browned.\n4. Add yogurt and cook until the gravy thickens. Serve hot.",
+        "rating": 4.5,
+        "description": "A flavorful Bengali beef curry with a rich yogurt-based gravy.",
+        "category": "beef",
+        "tags": [
+            "beef",
+            "beef rezala",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ay-01-fwe",
+        "name": "Beef Bhuna",
+        "image": "recipes_img/Beef_Bhuna.png",
+        "ingredients": [
+            "500g beef",
+            "2 onions, sliced",
+            "3 garlic cloves, minced",
+            "1 tsp ginger paste",
+            "2 green chillies, sliced",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp turmeric powder",
+            "1 tsp chilli powder",
+            "2 tbsp vegetable oil",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat oil in a pan and add sliced onions. Fry until golden brown.\n2. Add minced garlic, ginger paste and sliced green chillies. Fry for 1 minute.\n3. Add beef and stir well. Cook for 5 minutes.\n4. Add cumin powder, coriander powder, turmeric powder, chilli powder and salt. Mix well and cook for 10-15 minutes until the beef is cooked and the gravy thickens.",
+        "rating": "4.5",
+        "description": "A popular Bangladeshi beef dish that is spicy and full of flavor.",
+        "category": "beef",
+        "tags": [
+            "beef",
+            "beef bhuna",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ay-01-fwe",
+        "name": "Beef Kala Bhuna",
+        "image": "recipes_img/Beef_Kala_Bhuna.png",
+        "ingredients": [
+            "500g beef",
+            "2 onions, sliced",
+            "3 garlic cloves, minced",
+            "1 tsp ginger paste",
+            "2 green chillies, sliced",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp turmeric powder",
+            "1 tsp chilli powder",
+            "2 tbsp vegetable oil",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat oil in a pan and add sliced onions. Fry until golden brown.\n2. Add minced garlic, ginger paste and sliced green chillies. Fry for 1 minute.\n3. Add beef and stir well. Cook for 5 minutes.\n4. Add cumin powder, coriander powder, turmeric powder, chilli powder and salt. Mix well and cook for 10-15 minutes until the beef is cooked and the gravy thickens.\n5. Add a cup of hot water and let it simmer for 10 minutes until the gravy becomes thick and dark.",
+        "rating": "4.8",
+        "description": "A spicy beef dish with a dark and flavorful gravy, perfect for a special occasion.",
+        "category": "beef",
+        "tags": [
+            "beef",
+            "kala bhuna",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Rui Macher Jhol",
+        "image": "recipes_img/Rui_Macher_Jhol.png",
+        "ingredients": [
+            "4 pieces of rui fish",
+            "1 potato, diced",
+            "1 tomato, diced",
+            "1 onion, sliced",
+            "1 tsp ginger paste",
+            "1 tsp garlic paste",
+            "2 green chillies, sliced",
+            "1 tsp turmeric powder",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp red chilli powder",
+            "3 tbsp mustard oil",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat mustard oil in a pan and fry the fish pieces until they turn golden brown. Keep them aside.\n2. In the same pan, add sliced onions, diced potatoes, diced tomatoes, ginger paste, garlic paste and sliced green chillies. Fry for a few minutes.\n3. Add turmeric powder, cumin powder, coriander powder, red chilli powder and salt. Mix well and add a cup of hot water.\n4. Add the fried fish pieces and let it simmer for 10-15 minutes until the gravy thickens.",
+        "rating": "4.6",
+        "description": "A classic Bengali fish curry that is simple yet delicious.",
+        "category": "fish",
+        "tags": [
+            "fish",
+            "rui fish",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Shorshe Ilish",
+        "image": "recipes_img/Shorshe_Ilish.png",
+        "ingredients": [
+            "4 pieces ilish fish",
+            "4 tbsp mustard paste",
+            "1 onion, sliced",
+            "1 tbsp turmeric powder",
+            "4 green chillies, slit",
+            "2 tbsp mustard oil",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. In a bowl, mix mustard paste, turmeric powder, salt, and a little water to make a thick paste.\n2. Smear the fish with the paste and keep aside for 30 minutes.\n3. Heat mustard oil in a pan, add onion and green chillies, and sauté until the onions are translucent.\n4. Add the fish to the pan and cook for 5-7 minutes on each side.\n5. Serve hot with steamed rice.",
+        "rating": 4.8,
+        "description": "A traditional Bengali dish made with mustard and ilish fish, served with steamed rice.",
+        "category": "fish",
+        "tags": [
+            "fish",
+            "shorshe ilish",
+            "special occasion",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Chitol Macher Muithya",
+        "image": "recipes_img/Chitol_Macher_Muithya.png",
+        "ingredients": [
+            "500g chitol fish",
+            "1 onion, sliced",
+            "1 tsp ginger paste",
+            "1 tsp garlic paste",
+            "2 green chillies, sliced",
+            "1 tsp turmeric powder",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp red chilli powder",
+            "1/2 cup chickpea flour",
+            "2 tbsp mustard oil",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Clean and wash the chitol fish thoroughly. Mash the fish and mix it with sliced onions, ginger paste, garlic paste, sliced green chillies, turmeric powder, cumin powder, coriander powder, red chilli powder and salt.\n2. Add chickpea flour and mix well to form a smooth dough.\n3. Heat mustard oil in a pan and shape the fish dough into small balls. Fry them until they turn golden brown.\n4. Serve hot with steamed rice.",
+        "rating": "4.8",
+        "description": "A unique and flavorful fish dish made with chitol fish and chickpea flour.",
+        "category": "fish",
+        "tags": [
+            "fish",
+            "chitol fish",
+            "spicy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "mr-03-fqw",
+        "name": "Kacchi Biriyani",
+        "image": "recipes_img/Kacchi_Biriyani.png",
+        "ingredients": [
+            "1 kg basmati rice",
+            "1 kg mutton",
+            "2 cups yogurt",
+            "1/2 cup ghee",
+            "4 onions, sliced",
+            "1 tsp ginger paste",
+            "1 tsp garlic paste",
+            "2 tsp cumin powder",
+            "2 tsp coriander powder",
+            "2 tsp red chilli powder",
+            "1 tsp turmeric powder",
+            "2 tbsp rose water",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Soak the basmati rice in water for 30 minutes. Drain and keep aside.\n2. Marinate the mutton with yogurt, ginger paste, garlic paste, cumin powder, coriander powder, red chilli powder, turmeric powder and salt.\n3. Heat ghee in a heavy-bottomed pot and fry sliced onions until golden brown. Add marinated mutton and cook until the meat is tender.\n4. Layer the rice over the cooked mutton and sprinkle rose water.\n5. Cover the pot with a tight lid and cook on low heat until the rice is done.",
+        "rating": "4.9",
+        "description": "A classic and luxurious Bangladeshi rice dish made with mutton and aromatic spices.",
+        "category": "mutton",
+        "tags": [
+            "biriyani",
+            "mutton",
+            "spicy",
+            "rich",
+            "special sccasion"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "mr-03-fqw",
+        "name": "Mutton Rezala",
+        "image": "recipes_img/Mutton_Rezala.png",
+        "ingredients": [
+            "1 kg mutton",
+            "1 cup yogurt",
+            "2 cups onion paste",
+            "1/2 cup ghee",
+            "2 tsp ginger paste",
+            "2 tsp garlic paste",
+            "1 tsp white pepper powder",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp cardamom powder",
+            "1 tsp cinnamon powder",
+            "1 tsp nutmeg powder",
+            "1/2 cup cashew nut paste",
+            "1/2 cup poppy seed paste",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Marinate the mutton with yogurt, ginger paste, garlic paste and salt.\n2. Heat ghee in a pan and fry onion paste until golden brown. Add marinated mutton and cook until the meat is tender.\n3. Add white pepper powder, cumin powder, coriander powder, cardamom powder, cinnamon powder, nutmeg powder, cashew nut paste and poppy seed paste.\n4. Mix well and cook for another 10-15 minutes.\n5. Serve hot with naan or paratha.",
+        "rating": "4.7",
+        "description": "A rich and creamy Mughlai-style mutton curry that is perfect for special occasions.",
+        "category": "mutton",
+        "tags": [
+            "mutton",
+            "creamy",
+            "spices",
+            "mughlai",
+            "special occasion"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "mr-03-fqw",
+        "name": "Mutton Bhuna",
+        "image": "recipes_img/Mutton_Bhuna.png",
+        "ingredients": [
+            "1 kg mutton",
+            "3 cups onion, sliced",
+            "1/2 cup oil",
+            "2 tbsp ginger paste",
+            "2 tbsp garlic paste",
+            "2 tsp cumin powder",
+            "2 tsp coriander powder",
+            "2 tsp red chilli powder",
+            "1 tsp turmeric powder",
+            "1/2 cup tomato, chopped",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat oil in a pan and fry sliced onions until golden brown.\n2. Add ginger paste and garlic paste, and fry for 1-2 minutes.\n3. Add mutton and cook on high heat until the water released by the meat evaporates.\n4. Add cumin powder, coriander powder, red chilli powder, turmeric powder and salt.\n5. Mix well and cook until the meat is tender.\n6. Add chopped tomatoes and cook for another 5-7 minutes.\n7. Serve hot with rice or roti.",
+        "rating": "4.5",
+        "description": "A spicy and flavorful mutton curry that is cooked until the meat is tender and the spices are well-blended.",
+        "category": "mutton",
+        "tags": [
+            "mutton",
+            "spicy",
+            "flavorful",
+            "tender",
+            "curry"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ss-04-fww",
+        "name": "Spicy Chicken Curry",
+        "image": "recipes_img/Spicy_Chicken_Curry.png",
+        "ingredients": [
+            "1 kg chicken",
+            "2 cups onion, sliced",
+            "1/2 cup oil",
+            "2 tbsp ginger paste",
+            "2 tbsp garlic paste",
+            "2 tsp cumin powder",
+            "2 tsp coriander powder",
+            "2 tsp red chilli powder",
+            "1 tsp turmeric powder",
+            "1/2 cup tomato, chopped",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat oil in a pan and fry sliced onions until golden brown.\n2. Add ginger paste and garlic paste, and fry for 1-2 minutes.\n3. Add chicken and cook on high heat until the water released by the meat evaporates.\n4. Add cumin powder, coriander powder, red chilli powder, turmeric powder and salt.\n5. Mix well and cook until the chicken is tender.\n6. Add chopped tomatoes and cook for another 5-7 minutes.\n7. Serve hot with rice or roti.",
+        "rating": "4.8",
+        "description": "A fiery chicken curry that will tantalize your taste buds with its spice and flavor.",
+        "category": "chicken",
+        "tags": [
+            "chicken",
+            "spicy",
+            "curry",
+            "fiery",
+            "flavorful"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ss-04-fww",
+        "name": "Chicken Korma",
+        "image": "recipes_img/Chicken_Korma.png",
+        "ingredients": [
+            "1 kg chicken",
+            "2 cups onion, sliced",
+            "1/2 cup oil",
+            "2 tbsp ginger paste",
+            "2 tbsp garlic paste",
+            "2 tsp cumin powder",
+            "2 tsp coriander powder",
+            "2 tsp red chilli powder",
+            "1 tsp turmeric powder",
+            "1/2 cup yogurt",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Heat oil in a pan and fry sliced onions until golden brown.\n2. Add ginger paste and garlic paste, and fry for 1-2 minutes.\n3. Add chicken and cook on high heat until the water released by the meat evaporates.\n4. Add cumin powder, coriander powder, red chilli powder, turmeric powder and salt.\n5. Mix well and cook until the chicken is tender.\n6. Add yogurt and cook for another 5-7 minutes.\n7. Serve hot with rice or roti.",
+        "rating": "4.6",
+        "description": "A rich and creamy chicken curry that is mildly spiced and packed with flavor.",
+        "category": "chicken",
+        "tags": [
+            "chicken",
+            "korma",
+            "creamy",
+            "mild",
+            "flavorful"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ss-04-fww",
+        "name": "Chicken Rezala",
+        "image": "recipes_img/Chicken_Rezala.png",
+        "ingredients": [
+            "1 kg chicken",
+            "2 cups yogurt",
+            "1/2 cup cashew nuts",
+            "2-3 onions, sliced",
+            "1 tsp ginger paste",
+            "1 tsp garlic paste",
+            "1 tsp cumin powder",
+            "1 tsp coriander powder",
+            "1 tsp white pepper powder",
+            "1/2 tsp turmeric powder",
+            "4-5 green cardamoms",
+            "2-3 cinnamon sticks",
+            "2-3 bay leaves",
+            "4-5 cloves",
+            "1/4 cup ghee",
+            "1/4 cup milk",
+            "A pinch of saffron",
+            "Salt to taste"
+        ],
+        "cooking_method": "1. Marinate the chicken with yogurt, cumin powder, coriander powder, white pepper powder, turmeric powder, and salt for at least 2 hours.\n2. Heat ghee in a pan and fry the sliced onions until golden brown. Remove half of the fried onions and keep aside.\n3. Add ginger paste and garlic paste to the remaining onions and fry for 1-2 minutes.\n4. Add the marinated chicken and fry for 10-12 minutes or until the chicken is half cooked.\n5. Add cashew nuts and continue cooking for another 10-12 minutes or until the chicken is fully cooked.\n6. Add milk, fried onions, and saffron. Mix well and cook for another 2-3 minutes.\n7. Garnish with coriander leaves and serve hot with naan or paratha.",
+        "rating": "4.7",
+        "description": "A rich and creamy chicken curry made with yogurt, cashew nuts, and aromatic spices.",
+        "category": "chicken",
+        "tags": [
+            "creamy",
+            "spicy",
+            "yogurt-based",
+            "aromatic",
+            "traditional"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ai-05-fpw",
+        "name": "Samosa",
+        "image": "recipes_img/Samosa.png",
+        "ingredients": [
+            "1 cup all-purpose flour",
+            "1/4 cup vegetable oil",
+            "1/2 teaspoon salt",
+            "1/2 teaspoon cumin seeds",
+            "1/2 teaspoon coriander seeds",
+            "1/2 teaspoon garam masala",
+            "1/2 cup peas",
+            "1/2 cup potatoes",
+            "1/4 cup onion",
+            "1/4 cup cilantro"
+        ],
+        "cooking_method": "1. In a bowl, mix together flour, oil, salt and water to make dough.\n2. In a pan, heat oil and fry cumin, coriander and garam masala until fragrant.\n3. Add in the potatoes and cook for 5 minutes.\n4. Add in the peas and onions and cook for another 5 minutes.\n5. Add in the cilantro and remove from heat.\n6. Roll out the dough and cut into circles.\n7. Place the filling on one side of the circle and fold over.\n8. Fry in hot oil until golden brown.",
+        "rating": 4.5,
+        "description": "A popular street food in Bangladesh, samosas are crispy and delicious snacks that are perfect for any occasion.",
+        "category": "snacks",
+        "tags": [
+            "bangladeshi",
+            "street food",
+            "vegetarian"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ai-05-fpw",
+        "name": "Chotpoti",
+        "image": "recipes_img/Chotpoti.png",
+        "ingredients": [
+            "Chickpeas",
+            "Potatoes",
+            "Onion",
+            "Tamarind",
+            "Spices"
+        ],
+        "cooking_method": "Cook chickpeas and potatoes separately. Mix with spices and tamarind chutney. Serve cold or at room temperature.",
+        "rating": 4.7,
+        "description": "Chotpoti is a popular Bangladeshi street food that is tangy, spicy and full of flavor. It's a great appetizer for a party or a quick snack to enjoy on the go.",
+        "category": "snacks",
+        "tags": [
+            "bangladeshi",
+            "street food",
+            "vegetarian"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ai-05-fpw",
+        "name": "Shingara",
+        "image": "recipes_img/Shingara.png",
+        "ingredients": [
+            "Flour",
+            "Potato",
+            "Onion",
+            "Green chillies",
+            "Spices"
+        ],
+        "cooking_method": "Mix the ingredients for the filling and fry in oil. Make a dough with flour and water, and roll out thin sheets. Cut the sheets into small squares, add the filling and fold into triangles. Fry in hot oil until golden brown.",
+        "rating": 4.5,
+        "description": "Shingara is a popular Bangladeshi snack that is crispy on the outside and savory on the inside. It's perfect for a quick snack or as an appetizer for a party.",
+        "category": "snacks",
+        "tags": [
+            "bangladeshi",
+            "street food",
+            "vegetarian",
+            "shingara"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "th-06-fwo",
+        "name": "Morog Pulao",
+        "image": "recipes_img/Morog_Pulao.png",
+        "ingredients": [
+            "Basmati rice",
+            "Chicken",
+            "Onion",
+            "Cashew nuts",
+            "Raisins"
+        ],
+        "cooking_method": "Cook the chicken with spices and set aside. Fry onions and cashew nuts, add rice and chicken stock, and cook until the rice is fluffy. Add the chicken and raisins and cook for a few more minutes.",
+        "rating": 4.6,
+        "description": "Morog Pulao is a delicious Bangladeshi rice dish made with tender chicken, fragrant basmati rice, and a blend of spices. It's perfect for a special occasion or a family dinner.",
+        "category": "rice",
+        "tags": [
+            "chicken",
+            "spicy",
+            "festive"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "th-06-fwo",
+        "name": "Khichuri",
+        "image": "recipes_img/Khichuri.png",
+        "ingredients": [
+            "Rice",
+            "Lentils",
+            "Onion",
+            "Ginger",
+            "Spices"
+        ],
+        "cooking_method": "Wash the rice and lentils and cook with spices. Fry onions and ginger and add to the cooked rice and lentils. Serve hot with papadum and pickles.",
+        "rating": 4.3,
+        "description": "Khichuri is a popular Bangladeshi comfort food made with rice and lentils. It's a one-pot dish that's easy to make and perfect for a hearty meal on a cold day.",
+        "category": "rice",
+        "tags": [
+            "comfort food",
+            "one-pot",
+            "vegetarian"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "th-06-fwo",
+        "name": "Bengali-style Vegetable Khichuri",
+        "image": "recipes_img/Bengali_style_Vegetable_Khichuri.png",
+        "ingredients": [
+            "Rice",
+            "Lentils",
+            "Onion",
+            "Ginger",
+            "Garlic",
+            "Mixed vegetables"
+        ],
+        "cooking_method": "Wash the rice and lentils and cook with spices. Fry onions, ginger, and garlic, add mixed vegetables, and cook for a few minutes. Add the cooked rice and lentils to the vegetables and cook for a few more minutes. Serve hot with papadum and pickles.",
+        "rating": 4.2,
+        "description": "Bengali-style Vegetable Khichuri is a healthy and delicious one-pot meal made with rice, lentils, and mixed vegetables. It's perfect for a quick and easy weeknight dinner.",
+        "category": "rice",
+        "tags": [
+            "one-pot",
+            "vegetarian",
+            "healthy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Luchi",
+        "image": "recipes_img/Luchi.png",
+        "ingredients": [
+            "All-purpose flour",
+            "Salt",
+            "Oil",
+            "Warm water"
+        ],
+        "cooking_method": "Mix the flour and salt, then add oil and warm water to form a dough. Divide into small balls and roll out into discs. Fry in hot oil until golden brown.",
+        "rating": 4.7,
+        "description": "Luchi is a popular Bangladeshi deep-fried bread made from all-purpose flour. It's a delicious accompaniment to a variety of dishes, from spicy curries to sweet chutneys.",
+        "category": "appetizer",
+        "tags": [
+            "vegetarian",
+            "deep-fried",
+            "traditional"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "ai-05-fpw",
+        "name": "Mutton Biryani",
+        "image": "recipes_img/Mutton_Biryani.png",
+        "ingredients": [
+            "Basmati rice",
+            "Mutton",
+            "Onion",
+            "Tomato",
+            "Yogurt",
+            "Spices"
+        ],
+        "cooking_method": "Marinate the mutton in yogurt and spices. Fry onions until brown. Add tomatoes and cook until they are soft. Add the marinated mutton and cook for a few minutes. Parboil the rice and layer with the mutton mixture in a pot. Cook on low heat until the rice is fully cooked. Serve hot with raita and salad.",
+        "rating": 4.7,
+        "description": "Mutton Biryani is a flavorful and aromatic Bangladeshi rice dish made with tender mutton and spices. It's a hearty meal that's perfect for special occasions and gatherings.",
+        "category": "rice",
+        "tags": [
+            "mutton",
+            "spicy",
+            "aromatic"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Tormuj Juice",
+        "image": "recipes_img/Tormuj_Juice.png",
+        "ingredients": [
+            "4 cups diced tormuj",
+            "1/2 cup water",
+            "1/4 cup sugar",
+            "Juice of 1 lime",
+            "A pinch of salt"
+        ],
+        "cooking_method": "1. In a blender, blend the tormuj, water, sugar, lime juice, and salt until smooth.\n2. Strain the mixture through a fine-mesh strainer.\n3. Pour into glasses and serve chilled.",
+        "rating": "4.2",
+        "description": "A refreshing summer drink made with sweet tormuj and a hint of lime.",
+        "category": "juice",
+        "tags": [
+            "tormuj",
+            "lime",
+            "healthy"
+        ]
+    },
+    {
+        "creator_id": "w5BgIOl77mQ87wItZdhrIRzXce63",
+        "creator_email": "ahmedwakil66@gmail.com",
+        "country": ["Bangladesh:BD"],
+        "purchased_by": [],
+        "chef_id": "jm-02-qwf",
+        "name": "Mango Lassi",
+        "image": "recipes_img/Mango_Lassi.png",
+        "ingredients": [
+            "1 ripe mango, peeled and chopped",
+            "1 cup plain yogurt",
+            "1/2 cup milk",
+            "2 tablespoons sugar",
+            "A pinch of ground cardamom"
+        ],
+        "cooking_method": "1. In a blender, blend the mango, yogurt, milk, sugar, and cardamom until smooth.\n2. Pour into glasses and serve chilled.",
+        "rating": "4.5",
+        "description": "A delicious and refreshing drink made with ripe mango and yogurt.",
+        "category": "juice",
+        "tags": [
+            "mango",
+            "lassi",
+            "yogurt",
+            "healthy"
+        ]
+    }
+]
