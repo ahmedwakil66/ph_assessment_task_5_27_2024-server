@@ -1,16 +1,13 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const chefsData = require('./data/chef_data.json');
-const recipesData = require('./data/recipes_data.json');
-const qAndA = require('./data/q&a_data.json');
 const port = process.env.PORT || 3000;
-const { verifyJWT } = require('./middlewares');
 const { connect } = require('./db');
 
 // import routes
 const jwtRoute = require('./routes/jwt');
-const recipeRoute = require('./routes/protected/recipes');
+const getRecipeRoute = require('./routes/get-recipes'); // public 
+const recipeRoute = require('./routes/protected/recipes'); // protect
 const purchaseRoute = require('./routes/protected/purchase');
 
 const app = express();
@@ -22,6 +19,7 @@ app.use(express.json());
 app.use('/jwt', jwtRoute);
 app.use('/recipes', recipeRoute);
 app.use('/purchase', purchaseRoute);
+app.use('/get-recipes', getRecipeRoute);
 
 
 app.get('/', (req, res) => {
@@ -37,117 +35,18 @@ app.get('/get-stats', async (_, res) => {
         recipeCollection.estimatedDocumentCount(),
         userCollection.estimatedDocumentCount()
     ])
-    console.log('object', { recipeCount, userCount });
     return res.send({ recipeCount, userCount })
 })
 
-// send all recipes data for public route
-app.get('/get-recipes', async (_, res) => {
-    const { recipeCollection } = await connect();
-    const cursor = recipeCollection.find().project({
-        name: 1,
-        image: 1,
-        purchased_by: 1,
-        creator_email: 1,
-        country: 1
-    })
-    const recipes = [];
-    for await (const doc of cursor) {
-        recipes.push(doc);
-    }
-    return res.send(recipes)
-})
 
-//send all recipes for a specific category
-app.get('/get-recipes/categories/:category', async (req, res) => {
-    const category = req.params.category;
-    const { recipeCollection } = await connect();
-    const cursor = recipeCollection.find({ category }).project({
-        name: 1,
-        image: 1,
-        purchased_by: 1,
-        creator_email: 1,
-        country: 1
-    })
-    const recipes = [];
-    for await (const doc of cursor) {
-        recipes.push(doc);
-    }
-    return res.send(recipes)
-})
+// app.get('/one-time', async (req, res) => { // testing purpose
+//     const query = req.query.qs;
+//     const parsed = QueryString.parse(query);
+//     console.log({query, parsed});
 
-// app.get('/one-time', async (req, res) => {
-//     const { recipeCollection } = await connect();
-//     const result = await recipeCollection.updateMany(
-//         {},
-//         { $set: { country: 'Bangladesh' } }
-//     )
-//     return res.send({ result })
+//     return res.send({query, parsed})
 // })
 
-
-
-
-//send all chef data
-app.get('/simply-recipes/chefs', (_, res) => {
-    res.send(chefsData);
-})
-
-
-//send specific chef data
-app.get('/simply-recipes/chefs/:chefId', (req, res) => {
-    const id = req.params.chefId;
-    const chefData = chefsData.find(chef => chef._id === id);
-    res.send(chefData);
-})
-
-
-//building category data from all recipe and sending it
-app.get('/simply-recipes/categories', (req, res) => {
-    const categories = [];
-    const catData = [];
-    recipesData.forEach(recipe => {
-        const recipeCat = recipe.category;
-        if (categories.indexOf(recipeCat) === -1) {
-            categories.push(recipeCat);
-            catData.push({
-                category: recipe.category,
-                image: recipe.image
-            });
-        }
-    });
-    res.send(catData);
-})
-
-
-//send specific recipes data by chef id
-app.get('/simply-recipes/chef/:chefId', verifyJWT, (req, res) => {
-
-    const id = req.params.chefId;
-    const chef = chefsData.find(chef => chef._id === id);
-    const chefRecipes = recipesData.filter(recipe => recipe.chef_id === id) || [];
-    res.send({ chef, chefRecipes });
-})
-
-
-//send specific recipe data by recipe id
-app.get('/simply-recipes/recipes/:recipeId', (req, res) => {
-    const id = req.params.recipeId;
-    const recipeData = recipesData.find(recipe => recipe._id === id) || [];
-    res.send(recipeData);
-})
-
-
-//send today's pick
-app.get('/simply-recipes/todays-pick', (req, res) => {
-    res.send(recipesData.slice(0, 1));
-})
-
-
-//send all q&a data
-app.get('/simply-recipes/q-and-a', (req, res) => {
-    res.send(qAndA);
-})
 
 // Error handling middleware
 app.use((err, req, res, next) => {

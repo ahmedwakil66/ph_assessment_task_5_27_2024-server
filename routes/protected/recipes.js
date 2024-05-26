@@ -95,6 +95,31 @@ router.post('/add', upload.single('file'), async (req, res, next) => {
     }
 })
 
+// Add or remove reaction to a recipe
+router.patch('/reaction', async (req, res, next) => {
+    try {
+        const userId = req.decoded._id;
+        const action = req.query.action; // 'add' or 'remove'
+        const recipeId = req.query.recipeId; console.log({ query: req.query });
+
+        if (!recipeId) throw new Error('A recipe ID is required!');
+
+        let updatedDoc = { $addToSet: { reacted_by: userId } }
+        if (action === 'remove') updatedDoc = { $pull: { reacted_by: userId } }
+
+        const { recipeCollection } = await connect();
+        const updateResult = await recipeCollection.updateOne(
+            { _id: new ObjectId(recipeId) },
+            updatedDoc
+        )
+
+        return res.send({ success: updateResult.modifiedCount > 0 })
+
+    } catch (error) {
+        next(error);
+    }
+})
+
 // Purchase route handler
 router.post('/purchase', async (req, res, next) => {
     const userId = req.decoded._id;
