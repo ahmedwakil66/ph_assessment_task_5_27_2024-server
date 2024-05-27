@@ -58,3 +58,6 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
     console.log(`simply recipes has been started on port ${port}`)
 })
+
+// Export the Express API
+module.exports = app;
